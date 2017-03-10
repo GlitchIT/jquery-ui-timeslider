@@ -20,6 +20,8 @@
 				if (hours > 12) {
 					hours = hours - 12;
 					time = "PM";
+				} else if (hours === 12)
+					time = "PM";
 				} else {
 					time = "AM";
 				}
