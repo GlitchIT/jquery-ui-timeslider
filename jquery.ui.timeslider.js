@@ -20,7 +20,7 @@
 				if (hours > 12) {
 					hours = hours - 12;
 					time = "PM";
-				} else if (hours === 12)
+				} else if (hours === 12) // could also move hours === 0 check below this if block
 					time = "PM";
 				} else {
 					time = "AM";
